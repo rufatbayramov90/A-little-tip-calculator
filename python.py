@@ -16,6 +16,11 @@ final_amount = round(bill_person,2)
 print(f"{final_amount}")
 
 
+#----another syntax
+amount = bill * (tip/100)
+total = (amount + bill)/people
+final = round(total,2)
+print(f"{final}")
 
 
 
